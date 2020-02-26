@@ -1,0 +1,12 @@
+[package]
+name = "fun_with_libp2p"
+version = "0.1.0"
+authors = ["Dusty Phillips <dusty@beanstalk.network>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libp2p = "0.16.1"
+flexi_logger = "0.14.8"
+async-std = "1.5.0"
